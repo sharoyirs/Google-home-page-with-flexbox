@@ -1,0 +1,358 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: rgb(241, 241, 241);
+}
+
+nav {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-links {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.nav-link {
+	padding: 0 0px;
+	font-size: 0.85rem;
+	margin: 10px;
+}
+
+.nav-link a {
+	color: black;
+	text-decoration: none;
+}
+
+.nav-link a:hover {
+	border-bottom: 0.5px solid;
+}
+
+.nav-apps img {
+	width: 30px;
+	cursor: pointer;
+}
+
+.nav-account button,
+.nav-account button:focus {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: none;
+	background-color: rgb(36, 127, 139);
+	cursor: pointer;
+	outline: none;
+}
+
+.nav-account p {
+	color: white;
+	font-size: 18px;
+}
+
+main {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 81vh;
+}
+
+.content {
+	background-color: white;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.searchbox {
+	margin: 20px 0 0px 0;
+}
+
+.search-class {
+	display: flex;
+	justify-content: center;
+}
+
+.searchbox {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: flex-start;
+	height: 44px;
+	border-radius: 25px;
+	align-items: center;
+	width: 40%;
+	border: 1.7px solid rgba(233, 233, 233, 0.753);
+}
+
+.google-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.google-logo img {
+	height: 90px;
+}
+
+.search-bar {
+	display: flex;
+	justify-content: center;
+}
+
+.searchbox img {
+	height: 19px;
+	width: auto;
+   padding-left: 15px;
+   padding-top: 12px;
+}
+
+.searchbox label {
+	height: 100%;
+}
+
+
+#search {
+	border: none;
+	width: 100%;
+	border-radius: 25px;
+	order: 2;
+	height: 95%;
+	font-size: 15px;
+}
+
+#search:focus {
+	outline: none;
+}
+
+.main-buttons {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.main-buttons .button {
+	padding: 0 15px 0 0;
+}
+
+.main-buttons button {
+	padding: 10px 17px;
+	border: none;
+	background-color: #f8f9fa;
+	border: 1.5px solid #f8f9fa;
+	border-radius: 4px;
+}
+
+.main-buttons button:hover {
+	cursor: pointer;
+	border: 1.5px solid rgb(226, 223, 223);
+}
+
+.searchbox:hover {
+	box-shadow: 0px 2px 4px 0.2px rgb(199, 199, 199);
+}
+
+.language-choose {
+	display: flex;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.language-choose a {
+	text-decoration: none;
+	color: #1a0dab;
+	padding-left: 5px;
+}
+
+.language-choose a:hover {
+	text-decoration: underline;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-one {
+	border-bottom: 1px solid #dadce0;
+}
+
+.footer-two {
+	height: 10px;
+}
+
+.footer-two-first-section {
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+}
+
+.footer-two-second-section {
+	flex-grow: 3;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-two-third-section {
+	display: flex;
+	width: 400px;
+	justify-content: flex-end;
+}
+
+footer a {
+	padding: 20px;
+	font-size: 14px;
+	color: #70757a;
+	text-decoration: none;
+	height: 10px;
+}
+
+footer h1 {
+	padding: 20px;
+	font-size: 15px;
+	color: #70757a;
+	padding-left: 20px;
+	height: 10px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
